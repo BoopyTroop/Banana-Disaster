@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Banana Disaster!</title>
+</head>
+<body onload="loadStuff()">
+    <button type="button" onclick="spin()" id="spinBtn">Class Spin</button>
+    <div id="Output"></div>
+    <p id="mHp">HP: 100</p>
+
+    <div id="monster">
+        <progress id="health" value="100" max="100"></progress>
+        <img src="zombie.gif" onclick="attack()" id="monsterImg" alt="Gif"/>
+    </div>
+</body>
+
+</html>
+
